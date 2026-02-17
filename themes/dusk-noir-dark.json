@@ -1,5 +1,5 @@
 {
-  "name": "Frostbyte",
+  "name": "Dusk Noir Dark",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
@@ -59,7 +59,6 @@
     "activityBar.background": "#141416",
     "activityBar.foreground": "#f5f5f7",
     "activityBar.inactiveForeground": "#636366",
-    "activityBar.border": "#00000000",
     "activityBar.activeBorder": "#00000000",
     "activityBar.activeBackground": "#00000000",
     "activityBar.dropBorder": "#0A84FF",

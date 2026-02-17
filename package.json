@@ -1,9 +1,9 @@
 {
-  "name": "frostbyte",
-  "displayName": "Frostbyte",
-  "description": "A macOS Sonoma-inspired dark theme with frosty glass panels, rounded corners, and soft transitions. Pairs with Custom UI Style for the full Apple glass experience.",
-  "version": "0.1.0",
-  "publisher": "frostbyte",
+  "name": "dusk-noir",
+  "displayName": "Dusk Noir",
+  "description": "An Apple-inspired VS Code theme with floating glass panels, concentric rounded corners, and smooth transitions. Dark and light variants rooted in macOS Sonoma system colors and Apple Human Interface Guidelines.",
+  "version": "0.2.0",
+  "publisher": "bridgetamana",
   "license": "MIT",
   "engines": {
     "vscode": "^1.60.0"
@@ -16,22 +16,29 @@
     "macos",
     "sonoma",
     "glass",
-    "frosty",
     "dark",
+    "light",
     "rounded",
-    "glassmorphism"
+    "liquid-glass",
+    "dusk",
+    "noir"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Frostbyte",
+        "label": "Dusk Noir Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/frostbyte.json"
+        "path": "./themes/dusk-noir-dark.json"
+      },
+      {
+        "label": "Dusk Noir Light",
+        "uiTheme": "vs",
+        "path": "./themes/dusk-noir-light.json"
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Bridgetamana/vscode-dusk-noir.git"
   }
 }
