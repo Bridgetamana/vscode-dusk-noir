@@ -1,0 +1,37 @@
+{
+  "name": "frostbyte",
+  "displayName": "Frostbyte",
+  "description": "A macOS Sonoma-inspired dark theme with frosty glass panels, rounded corners, and soft transitions. Pairs with Custom UI Style for the full Apple glass experience.",
+  "version": "0.1.0",
+  "publisher": "frostbyte",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "apple",
+    "macos",
+    "sonoma",
+    "glass",
+    "frosty",
+    "dark",
+    "rounded",
+    "glassmorphism"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Frostbyte",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frostbyte.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
